@@ -33,7 +33,8 @@ I have telegraf configured to pull all the docker metrics but I couldn't figure 
  Upload the `docker.json` file included in the repo under `tf-docker-tick_stack/config/docker.json`
   
  Enjoy!!
-
+  
+![dashboard](./images/docker-dashboard.jpg)
  
 
 
