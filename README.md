@@ -1,7 +1,7 @@
 # Using terraform with docker to build a TICK stack
 
 ### Background:
-I got bored one night and really wanted to if it hard to use docker with terraform instead of just running the `docker` commands.  After a while I really like the terraform state with docker because I could make a small change and re-run `terraform apply` to make a correction.  
+I got bored one night and wanted to see if it was hard to use docker with terraform instead of just running the `docker` commands.  After a while I really like the terraform state with docker because I could make a small change and re-run `terraform apply` to make a real time fixes.  
 
 ## Requirements
 1. Terraform
