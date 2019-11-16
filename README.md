@@ -32,9 +32,12 @@ I have telegraf configured to pull all the docker metrics but I couldn't figure 
   
  Upload the `docker.json` file included in the repo under `tf-docker-tick_stack/config/docker.json`
   
- Enjoy!!
+ Enjoy!! 
   
-![dashboard](./images/docker-dashboard.jpg)
+![dashboard](./images/docker-dashboard.jpg)  
+  
+## Cleanup
+1. `terraform destroy` then type yes -> `Enter a value:` `yes`  
  
 
 
