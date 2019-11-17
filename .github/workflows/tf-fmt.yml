@@ -1,6 +1,6 @@
 name: 'Terraform GitHub Actions'
 on:
-  - commit
+  - push
 jobs:
   terraform:
     name: 'Terraform'
