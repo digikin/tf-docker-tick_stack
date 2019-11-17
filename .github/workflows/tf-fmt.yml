@@ -1,6 +1,6 @@
 name: 'Terraform GitHub Actions'
 on:
-  - push
+  - pull_request
 jobs:
   terraform:
     name: 'Terraform fmt'
