@@ -73,7 +73,7 @@ resource "docker_container" "telegraf" {
 #### This has to be your absolute path ####
 ####
 locals {
-  config = "tf-tick-stack/config/telegraf.conf"
+  config = "$PWD/tf-tick-stack/config/telegraf.conf"
 }
 
 
