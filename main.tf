@@ -73,7 +73,7 @@ resource "docker_container" "telegraf" {
 #### This has to be your absolute path ####
 ####
 locals {
-  config = "$PWD/tf-tick-stack/config/telegraf.conf"
+  config = "/home/eric/Documents/github.com/tf/terraform-playground/tf-tick-stack/config/telegraf.conf"
 }
 
 
